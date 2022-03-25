@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import xgboost
 
-model = load_model('final xgboost')
+model = load_model('final_xgboost')
 
 def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
